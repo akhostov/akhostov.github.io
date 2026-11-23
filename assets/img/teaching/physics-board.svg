@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a physics lecture board: a projectile trajectory, a pendulum, a wave, and the equations F = ma and v = fλ</title>
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="110%">
+      <stop offset="0" stop-color="#1c2c4c"/><stop offset=".6" stop-color="#0f1730"/><stop offset="1" stop-color="#0a1022"/>
+    </radialGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#f6b2a2"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#8fe3ec"/></marker>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <g fill="none" stroke="#2a3a5e" stroke-width="1">
+    <path d="M0 160H960M0 320H960M0 480H960M240 0V640M480 0V640M720 0V640" opacity=".45"/>
+  </g>
+  <!-- projectile -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M90 420 Q 300 40 520 420" stroke="#8fe3ec" stroke-width="5" stroke-dasharray="2 16"/>
+    <line x1="60" y1="420" x2="560" y2="420" stroke="#5b6b92" stroke-width="3"/>
+    <line x1="90" y1="420" x2="170" y2="300" stroke="#f6b2a2" stroke-width="5" marker-end="url(#ar)"/>
+    <line x1="305" y1="230" x2="305" y2="300" stroke="#f6b2a2" stroke-width="5" marker-end="url(#ar)"/>
+    <line x1="305" y1="230" x2="385" y2="230" stroke="#8fe3ec" stroke-width="5" marker-end="url(#ag)"/>
+  </g>
+  <circle cx="305" cy="230" r="14" fill="#fff4e6"/>
+  <text x="182" y="300" fill="#f6b2a2" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34">v₀</text>
+  <text x="316" y="330" fill="#f6b2a2" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34">g</text>
+  <!-- pendulum -->
+  <g stroke-linecap="round">
+    <line x1="700" y1="70" x2="840" y2="70" stroke="#5b6b92" stroke-width="5"/>
+    <line x1="770" y1="70" x2="700" y2="250" stroke="#dfe6f5" stroke-width="3"/>
+    <line x1="770" y1="70" x2="770" y2="270" stroke="#5b6b92" stroke-width="2" stroke-dasharray="6 8"/>
+    <path d="M770 140 A 70 70 0 0 1 744.6 135.2" fill="none" stroke="#8fe3ec" stroke-width="3"/>
+  </g>
+  <circle cx="700" cy="250" r="24" fill="#ffd6a8"/>
+  <text x="742" y="172" fill="#8fe3ec" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30">θ</text>
+  <!-- wave -->
+  <path d="M600 470 C 640 400, 680 400, 720 470 S 800 540, 840 470 S 920 400, 940 440" fill="none" stroke="#b9a7ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M600 560 H720" stroke="#5b6b92" stroke-width="3" marker-end="url(#ag)"/>
+  <text x="650" y="600" fill="#b9a7ff" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="32">λ</text>
+  <!-- equations -->
+  <g fill="#e8edf8" font-family="Georgia, 'Times New Roman', serif" font-size="46">
+    <text x="80" y="540"><tspan font-style="italic">F</tspan> = <tspan font-style="italic">m a</tspan></text>
+    <text x="80" y="600" font-size="38" fill="#c7d0e4"><tspan font-style="italic">v</tspan> = <tspan font-style="italic">f</tspan> λ</text>
+  </g>
+</svg>

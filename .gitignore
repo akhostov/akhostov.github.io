@@ -1,1 +1,18 @@
-Gemfile.lock
+# macOS
+.DS_Store
+
+# Source material kept locally, not published
+# Paper PDFs and the original animation files used to make site figures
+publications/*.pdf
+publications/*.gif
+publications/*_first_frame.png
+# Original music photos and posters (web versions live in assets/img/music/)
+music/*.jpg
+music/*.jpeg
+music/*.png
+# Original profile photo (web version is assets/img/photos/portrait-dc.jpg)
+profile_pic_used*in_linkedin.jpg
+
+# Python
+__pycache__/
+*.pyc

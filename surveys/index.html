@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- BEGIN head -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070b17">
+<meta name="author" content="Ali Ahmad Khostovan">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<!-- END head -->
+<title>Surveys &amp; Data · Ali Ahmad Khostovan</title>
+<meta name="description" content="The galaxy surveys Ali Ahmad Khostovan is part of, including COSMOS-Web, AURORA, POPPIES, JELS, CLUTCH, GRACE, HiZELS, SC4K, and LAGER: what each does, his role, and where to find the data.">
+<link rel="canonical" href="https://akhostov.github.io/surveys/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ali Ahmad Khostovan">
+<meta property="og:title" content="Surveys &amp; Data · Ali Ahmad Khostovan">
+<meta property="og:description" content="What each survey does, the role I play, and where to find its data.">
+<meta property="og:url" content="https://akhostov.github.io/surveys/">
+<meta property="og:image" content="https://akhostov.github.io/assets/img/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body data-page="surveys">
+<!-- BEGIN header -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="brand-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5fd0dc"/><stop offset="1" stop-color="#f28b74"/></linearGradient></defs><path fill="url(#brand-g)" d="M16 1.5 17.6 12.4 27.5 7.6 19.4 16 27.5 24.4 17.6 19.6 16 30.5 14.4 19.6 4.5 24.4 12.6 16 4.5 7.6 14.4 12.4Z"/><circle cx="16" cy="16" r="2.6" fill="#fff"/></svg>
+      <span>Ali Ahmad Khostovan</span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="/research/" data-nav="research">Research</a>
+      <a href="/surveys/" data-nav="surveys">Surveys</a>
+      <a href="/publications/" data-nav="publications">Publications</a>
+      <a href="/teaching/" data-nav="teaching">Teaching</a>
+      <a href="/mentoring/" data-nav="mentoring">Mentoring</a>
+      <a href="/outreach/" data-nav="outreach">Outreach</a>
+      <a href="/music/" data-nav="music">Music</a>
+      <a href="/about/" data-nav="about">About</a>
+      <a class="nav-cv" href="/assets/docs/Khostovan_CV.pdf"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-file"/></svg>CV</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg class="icon i-moon" aria-hidden="true"><use href="/assets/img/icons.svg#i-moon"/></svg>
+        <svg class="icon i-sun" aria-hidden="true"><use href="/assets/img/icons.svg#i-sun"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <svg class="icon i-menu" aria-hidden="true"><use href="/assets/img/icons.svg#i-menu"/></svg>
+        <svg class="icon i-close" aria-hidden="true"><use href="/assets/img/icons.svg#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<!-- END header -->
+
+<main id="main">
+
+  <section class="night page-hero on-night">
+    <canvas class="starfield" data-seed="33" data-density="0.85" data-avoid="0,0.12,0.86,0.99" aria-hidden="true"></canvas>
+    <div class="container">
+      <p class="crumbs"><a href="/">Home</a> / Surveys &amp; data</p>
+      <p class="eyebrow">Surveys &amp; data</p>
+      <h1>The surveys I'm part of</h1>
+      <p class="lead"><!-- BEGIN mdi:hero-lead -->Modern astronomy is a team sport. Survey collaborations pool telescope time, people, and expertise to build data sets no single scientist could. Here is what each one does, the role I play, and where you can find its data.<!-- END mdi:hero-lead --></p>
+      <nav class="jump-grid jump-cards" aria-label="On this page">
+        <a class="jg t2" href="#techniques"><span class="jg-k">Methods</span><span class="jg-t">How surveys work</span></a>
+        <a class="jg t2" href="#lead"><span class="jg-k">Data products</span><span class="jg-t">Resources I lead</span></a>
+        <a class="jg t2" href="#space"><span class="jg-k">Surveys</span><span class="jg-t">Space telescopes</span></a>
+        <a class="jg t2" href="#ground"><span class="jg-k">Surveys</span><span class="jg-t">Ground-based</span></a>
+        <a class="jg t2" href="#legacy"><span class="jg-k">Archive</span><span class="jg-t">Legacy fields and earlier work</span></a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Techniques -->
+  <section class="section" id="techniques">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">How surveys work</p>
+        <h2>Three ways to collect galaxies</h2>
+        <p class="lead"><!-- BEGIN mdi:techniques-intro -->A survey systematically maps a patch of sky to build large, uniform samples. Wide surveys find rare, bright objects; deep ones reach faint, distant galaxies. These are the three techniques behind the surveys on this page.<!-- END mdi:techniques-intro --></p>
+      </div>
+      <div class="techniques">
+        <div class="card technique">
+          <svg viewBox="0 0 320 172" role="img" aria-label="Diagram: the NB964 narrowband filter transmission curve with a galaxy spectrum whose H-alpha and [N II] lines at redshift 0.47 fall inside the filter; an inset shows the galaxy faint in a broadband image and bright in the narrowband image">
+            <polygon points="51.8,138 73.5,135 87.5,124 100.2,100 112.9,76 123.1,66 134.5,63 172.7,64 191.8,67 207.1,76 221.1,100 232.5,124 244.0,135 264.4,138" fill="#5fd0dc" fill-opacity=".16"/>
+            <polyline points="51.8,138 73.5,135 87.5,124 100.2,100 112.9,76 123.1,66 134.5,63 172.7,64 191.8,67 207.1,76 221.1,100 232.5,124 244.0,135 264.4,138" fill="none" stroke="#5fd0dc" stroke-width="2.2" stroke-linejoin="round"/>
+            <polyline points="20.0,129 32.7,127 45.5,130 58.2,126 70.9,129 83.6,127 96.4,129 104.0,125 109.1,121 114.2,126 121.8,128 128.2,120 132.0,92 134.5,74 137.1,92 140.9,121 149.8,128 160.0,127 167.6,120 172.7,104 177.8,118 185.5,126 195.6,128 205.8,126 216.0,129 223.6,128" fill="none" stroke="#f6b2a2" stroke-width="1.6" stroke-linejoin="round"/>
+            <g stroke-dasharray="3 3" stroke-width="1"><line x1="134.5" y1="44" x2="134.5" y2="138" stroke="#9be7a0"/><line x1="172.7" y1="44" x2="172.7" y2="138" stroke="#b9a7ff"/><line x1="109.1" y1="44" x2="109.1" y2="138" stroke="#b9a7ff"/></g>
+            <text x="134.5" y="40" fill="#9be7a0" font-size="10" font-family="Inter, sans-serif" text-anchor="middle">Hα</text>
+            <text x="174.7" y="40" fill="#b9a7ff" font-size="9" font-family="Inter, sans-serif">[N II]</text>
+            <line x1="20" y1="138" x2="300" y2="138" stroke="#3a4566" stroke-width="1.5"/>
+            <g fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle"><text x="45.5" y="150">9550</text><text x="172.7" y="150">9650</text><text x="300.0" y="150">9750</text></g>
+            <g stroke="#3a4566"><line x1="45.5" y1="138" x2="45.5" y2="141"/><line x1="172.7" y1="138" x2="172.7" y2="141"/><line x1="299.5" y1="138" x2="299.5" y2="141"/></g>
+            <text x="300" y="166" fill="#8690aa" font-size="9.5" font-family="Inter, sans-serif" text-anchor="end">observed wavelength (Å)</text>
+            <text x="236.4" y="84" fill="#8fe3ec" font-size="10" font-family="Inter, sans-serif">NB964 filter</text>
+            <text x="236.4" y="96" fill="#8fe3ec" font-size="8.5" font-family="Inter, sans-serif">(92 Å wide)</text>
+            <text x="236.4" y="122" fill="#f6b2a2" font-size="9" font-family="Inter, sans-serif">galaxy, z = 0.47</text>
+            <g>
+              <rect x="14" y="14" width="30" height="30" rx="3" fill="#0b1124" stroke="#3a4566"/><circle cx="29" cy="29" r="2.4" fill="#9aa6c4" fill-opacity=".55"/>
+              <rect x="62" y="14" width="30" height="30" rx="3" fill="#0b1124" stroke="#5fd0dc"/><circle cx="77" cy="29" r="5" fill="#ffffff"/><circle cx="77" cy="29" r="9" fill="#5fd0dc" fill-opacity=".25"/>
+              <text x="29" y="55" fill="#8690aa" font-size="8" font-family="Inter, sans-serif" text-anchor="middle">broadband</text>
+              <text x="79" y="55" fill="#8fe3ec" font-size="8" font-family="Inter, sans-serif" text-anchor="middle">narrowband</text>
+            </g>
+          </svg>
+          <h3>Narrowband imaging</h3>
+          <p><!-- BEGIN mdi:technique-narrowband -->A filter only about 1% wide in wavelength, such as LAGER's NB964 (92 Å wide at 9640 Å), isolates a thin slice of color. A galaxy whose emission line lands in the window appears brighter in the narrowband image than in a broadband one, which selects every line-emitting galaxy above a flux limit in a thin redshift slice (here Hα at <i>z</i> = 0.47). Used by HiZELS, SC4K, LAGER, DAWN, and CIDER, and by JELS on JWST.<!-- END mdi:technique-narrowband --></p>
+        </div>
+        <div class="card technique">
+          <svg viewBox="0 0 320 172" role="img" aria-label="Diagram: a direct image of a field of galaxies; the same field seen through a grism, where every galaxy becomes a short horizontal spectrum with a bright emission-line knot; and the extracted one-dimensional spectrum of one galaxy">
+            <defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#7aa7ff" stop-opacity=".55"/><stop offset=".5" stop-color="#9be7a0" stop-opacity=".5"/><stop offset="1" stop-color="#ff8f73" stop-opacity=".55"/></linearGradient></defs>
+            <rect x="14" y="14" width="92" height="104" rx="5" fill="#0b1124" stroke="#3a4566"/>
+            <rect x="130" y="14" width="176" height="104" rx="5" fill="#0b1124" stroke="#3a4566"/>
+            <ellipse cx="38" cy="34" rx="4.4" ry="3.6" fill="#ffe7cc"/><ellipse cx="80" cy="46" rx="3.5999999999999996" ry="2.8" fill="#ffe7cc"/><ellipse cx="54" cy="70" rx="5.0" ry="4.2" fill="#ffe7cc"/><circle cx="54" cy="70" r="9" fill="none" stroke="#5fd0dc" stroke-width="1.2" stroke-dasharray="3 2"/><ellipse cx="90" cy="92" rx="3.4000000000000004" ry="2.6" fill="#ffe7cc"/><ellipse cx="32" cy="100" rx="3.8" ry="3.0" fill="#ffe7cc"/>
+            <rect x="156.5" y="30.4" width="92" height="7.2" rx="3.6" fill="url(#gr)" opacity="0.7"/><ellipse cx="207.1" cy="34" rx="2.6" ry="4.2" fill="#ffffff"/><rect x="188.0" y="43.2" width="92" height="5.6" rx="2.8" fill="url(#gr)" opacity="0.7"/><ellipse cx="220.2" cy="46" rx="2.6" ry="3.4" fill="#ffffff"/><rect x="168.5" y="65.8" width="92" height="8.4" rx="4.2" fill="url(#gr)" opacity="0.95"/><ellipse cx="225.5" cy="70" rx="2.6" ry="4.8" fill="#ffffff"/><rect x="165.5" y="62.8" width="98" height="14.4" rx="4" fill="none" stroke="#5fd0dc" stroke-width="1.2" stroke-dasharray="3 2"/><rect x="195.5" y="89.4" width="92" height="5.2" rx="2.6" fill="url(#gr)" opacity="0.7"/><ellipse cx="221.3" cy="92" rx="2.6" ry="3.2" fill="#ffffff"/><rect x="152.0" y="97.0" width="92" height="6.0" rx="3.0" fill="url(#gr)" opacity="0.7"/><ellipse cx="193.4" cy="100" rx="2.6" ry="3.6" fill="#ffffff"/>
+            <path d="M110 66h14m-5-5 5 5-5 5" fill="none" stroke="#8690aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="60" y="130" fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle">direct image</text>
+            <text x="218" y="130" fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle">grism image: every object dispersed</text>
+            <polyline points="168.5,156.0 171.5,155.9 174.5,155.8 177.5,155.7 180.5,155.6 183.5,155.5 186.5,155.4 189.5,155.3 192.5,155.2 195.5,155.1 198.5,155.0 201.5,154.9 204.5,154.8 207.5,154.7 210.5,154.6 213.5,154.5 216.5,154.4 219.5,154.3 222.5,149.9 225.5,139.3 228.5,149.4 231.5,153.9 234.5,153.8 237.5,153.8 240.5,153.7 243.5,153.6 246.5,153.5 249.5,153.4 252.5,153.3 255.5,153.2 258.5,153.1" fill="none" stroke="#5fd0dc" stroke-width="1.6" stroke-linejoin="round"/>
+            <text x="231.5" y="146" fill="#ffffff" font-size="8.5" font-family="Inter, sans-serif">emission line</text>
+            <text x="162.5" y="158" fill="#8fe3ec" font-size="8.5" font-family="Inter, sans-serif" text-anchor="end">extracted 1D spectrum</text>
+            <text x="300" y="170" fill="#8690aa" font-size="8.5" font-family="Inter, sans-serif" text-anchor="end">wavelength →</text>
+          </svg>
+          <h3>Slitless spectroscopy</h3>
+          <p><!-- BEGIN mdi:technique-slitless -->A grism, a prism combined with a diffraction grating, disperses the light of every object in the field into a short spectrum, as in Hubble's 3D-HST survey. Each trace is then extracted into a 1D spectrum, giving emission-line redshifts for thousands of galaxies without choosing targets in advance; overlapping traces from neighbors must be modeled. Used by POPPIES on JWST and GRACE on Roman.<!-- END mdi:technique-slitless --></p>
+        </div>
+        <div class="card technique">
+          <svg viewBox="0 0 320 172" role="img" aria-label="Diagram: a configurable slit mask in which pairs of bars leave a narrow slit over each target galaxy, and the resulting stack of two-dimensional spectra, one per slit, with sky lines common to every slit and emission lines at different wavelengths for galaxies at different redshifts">
+            <rect x="14" y="16" width="124" height="116" rx="4" fill="#0b1124" stroke="#3a4566"/>
+            <rect x="16" y="19" width="44" height="12" fill="#3b4a74"/><rect x="64" y="19" width="72" height="12" fill="#3b4a74"/><circle cx="62" cy="25.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="33" width="22" height="12" fill="#3b4a74"/><rect x="42" y="33" width="94" height="12" fill="#3b4a74"/><circle cx="40" cy="39.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="47" width="78" height="12" fill="#3b4a74"/><rect x="98" y="47" width="38" height="12" fill="#3b4a74"/><circle cx="96" cy="53.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="61" width="56" height="12" fill="#3b4a74"/><rect x="76" y="61" width="60" height="12" fill="#3b4a74"/><circle cx="74" cy="67.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="75" width="32" height="12" fill="#3b4a74"/><rect x="52" y="75" width="84" height="12" fill="#3b4a74"/><circle cx="50" cy="81.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="89" width="86" height="12" fill="#3b4a74"/><rect x="106" y="89" width="30" height="12" fill="#3b4a74"/><circle cx="104" cy="95.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="103" width="66" height="12" fill="#3b4a74"/><rect x="86" y="103" width="50" height="12" fill="#3b4a74"/><circle cx="84" cy="109.0" r="2.2" fill="#ffe7cc"/><rect x="16" y="117" width="40" height="12" fill="#3b4a74"/><rect x="60" y="117" width="76" height="12" fill="#3b4a74"/><circle cx="58" cy="123.0" r="2.2" fill="#ffe7cc"/>
+            <path d="M144 74.0h14m-5-5 5 5-5 5" fill="none" stroke="#8690aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="166" y="20" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="24.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="20" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="20" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="20" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="20" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="234.5" y="21" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="34" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="38.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="34" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="34" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="34" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="34" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="201.5" y="35" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="48" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="52.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="48" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="48" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="48" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="48" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="269.5" y="49" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="62" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="66.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="62" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="62" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="62" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="62" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="166" y="76" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="80.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="76" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="76" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="76" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="76" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="220.5" y="77" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="90" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="94.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="90" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="90" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="90" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="90" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="254.5" y="91" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="104" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="108.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="104" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="104" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="104" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="104" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="193.5" y="105" width="3" height="8" rx="1" fill="#7ff0fb"/><rect x="166" y="118" width="138" height="10" rx="1.5" fill="#18223e"/><rect x="166" y="122.4" width="138" height="1.2" fill="#9aa6c4" fill-opacity=".25"/><rect x="184" y="118" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="214" y="118" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="251" y="118" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="283" y="118" width="1.4" height="10" fill="#c9d3ea" fill-opacity=".45"/><rect x="288.5" y="119" width="3" height="8" rx="1" fill="#7ff0fb"/>
+            <text x="76" y="146" fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle">slit mask: bars open a slit</text>
+            <text x="76" y="157" fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle">over each target</text>
+            <text x="235" y="146" fill="#8690aa" font-size="9" font-family="Inter, sans-serif" text-anchor="middle">2D spectra, one per slit</text>
+            <g font-family="Inter, sans-serif" font-size="8.5"><rect x="170" y="153" width="8" height="8" fill="#5fd0dc" rx="1"/><text x="181" y="160" fill="#8fe3ec">emission line</text><rect x="240" y="153" width="2" height="8" fill="#c9d3ea"/><text x="246" y="160" fill="#c9d3ea">sky lines</text></g>
+          </svg>
+          <h3>Multi-object spectroscopy</h3>
+          <p><!-- BEGIN mdi:technique-slitmask -->Slits are placed over chosen targets, using configurable bars (as on Keck/MOSFIRE), milled masks, or JWST's microshutters, and each slit yields a 2D spectrum. Emission lines fall at different wavelengths for galaxies at different redshifts, while sky lines appear in every slit and are subtracted. AURORA used JWST's microshutters; my COSMOS Spectroscopic Archive reprocesses 2,660 slit masks from Keck, Subaru, and Gemini.<!-- END mdi:technique-slitmask --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+
+      <!-- Group 1 -->
+      <div class="survey-group" id="lead">
+        <div class="group-head">
+          <h2>Data resources I lead</h2>
+          <p><!-- BEGIN mdi:group-lead -->Public resources I built or lead, so that anyone can use two decades of COSMOS spectroscopy.<!-- END mdi:group-lead --></p>
+        </div>
+        <div class="survey-grid">
+          <article class="card survey" id="specz">
+            <div class="survey-top">
+              <div><h3>COSMOS Spectroscopic Redshift Compilation</h3><p class="full">Two decades of spectroscopy in the COSMOS field</p></div>
+              <div class="tags"><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:specz-about -->One uniform catalog of 487,666 spectroscopic redshifts for 266,284 objects, gathered from 138 observing programs over about 20 years and standardized with common quality flags. Researchers use it to calibrate photometric redshifts, check contamination, and plan follow-up observations. Data Release 2.0, with about 15% more redshifts, goes public in December 2026.<!-- END mdi:specz-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:specz-role -->Lead. I co-developed the compilation pipeline with Olivier Ilbert, led the analysis and the release paper, and maintain the catalog with an automated literature-mining pipeline.<!-- END mdi:specz-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-calendar"/></svg>First data release, 2026</span></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://cosmos.astro.caltech.edu/page/specz"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Get the data</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/arXiv:2503.00120/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Release paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="archive">
+            <div class="survey-top">
+              <div><h3>COSMOS Spectroscopic Archive</h3><p class="full">Reprocessed archival spectra from Keck, Subaru, and Gemini</p></div>
+              <div class="tags"><span class="badge badge-gold">In progress</span></div>
+            </div>
+            <p><!-- BEGIN mdi:archive-about -->Reduced spectra, redshifts, and emission-line measurements for about 250,000 galaxies out to <i>z</i> ≈ 9, drawn from 2,660 spectroscopic masks (12,200 observing hours) in the Keck, Subaru, and Gemini archives. Many of these data were never published, and the archive has already produced new results such as the extreme emission-line galaxy EELG1002.<!-- END mdi:archive-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:archive-role -->Development lead. The archive began with NASA ADAP and NSF grants led by Jeyhan Kartaltepe (RIT); I lead its development, in particular the data gathering and reduction.<!-- END mdi:archive-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-calendar"/></svg>Public release planned</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...994...34K/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>EELG1002 discovery</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="redshift-wrangler">
+            <div class="survey-top">
+              <div><h3>Redshift Wrangler</h3><p class="full">A citizen-science project on Zooniverse</p></div>
+              <div class="tags"><span class="badge badge-violet">Citizen science</span></div>
+            </div>
+            <p><!-- BEGIN mdi:redshift-wrangler-about -->Volunteers inspect real galaxy spectra from the archive and mark emission and absorption features, which are turned into redshifts and quality-checked line fits. No experience is needed, and thousands of volunteers have already taken part.<!-- END mdi:redshift-wrangler-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:redshift-wrangler-role -->Core team member. I helped build the project, supplied the spectra I reduced, and answered volunteers' questions on the forum and during office hours.<!-- END mdi:redshift-wrangler-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>Led by Sadie Coffin (RIT PhD student)</span></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://www.zooniverse.org/projects/jeyhansk/redshift-wrangler"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-spark"/></svg>Take part</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Group 2 -->
+      <div class="survey-group" id="space">
+        <div class="group-head">
+          <h2>Space telescope surveys</h2>
+          <p><!-- BEGIN mdi:group-space -->Programs on JWST, Hubble, and NASA's Roman Space Telescope, which launched in August 2026. Their observations are archived at MAST, and each program page links to its data.<!-- END mdi:group-space --></p>
+        </div>
+        <div class="survey-grid">
+          <article class="card survey" id="cosmos-web">
+            <div class="survey-top">
+              <div><h3>COSMOS-Web</h3><p class="full">The JWST Cosmic Origins Survey · Cycle 1 Treasury program</p></div>
+              <div class="tags"><span class="badge badge-ink">JWST</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:cosmos-web-about -->The largest JWST program of its first year: 255 hours of imaging that mapped 0.54 square degrees of the COSMOS field (nearly three times the area of the full Moon) with NIRCam, plus a smaller area with MIRI. Its COSMOS2025 catalog describes more than 700,000 galaxies.<!-- END mdi:cosmos-web-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:cosmos-web-role -->Team member since 2021. My redshift compilation supplies about 12,000 high-confidence redshifts used to calibrate and validate COSMOS2025.<!-- END mdi:cosmos-web-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PIs: Jeyhan Kartaltepe &amp; Caitlin Casey</span></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://cosmos.astro.caltech.edu/page/cosmosweb-dr"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Data release</a>
+              <a class="link-btn" href="https://cosmos.astro.caltech.edu/page/cosmosweb"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Website</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2023ApJ...954...31C/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="grace">
+            <div class="survey-top">
+              <div><h3>GRACE</h3><p class="full">Grism Reionization And Cosmic Evolution Survey · Roman Cycle 1</p></div>
+              <div class="tags"><span class="badge badge-ink">Roman</span><span class="badge badge-violet">Upcoming</span></div>
+            </div>
+            <p><!-- BEGIN mdi:grace-about -->An ultra-deep slitless spectroscopy survey with NASA's Roman Space Telescope, which launched in August 2026: 421 hours of observing in the Chandra Deep Field-South. It will find Lyman-α galaxies from more than 13 billion years ago (<i>z</i> ≈ 7–10) to time the end of reionization, while mapping star formation and chemistry at cosmic noon.<!-- END mdi:grace-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:grace-role -->Co-investigator since 2026. I lead GRACE's archival redshift compilation, which will calibrate its redshifts, and will use its spectra to measure metallicity relations for large samples of galaxies.<!-- END mdi:grace-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PI: Sangeeta Malhotra</span><span>Program 2003</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://roman.ipac.caltech.edu/page/roman-program-2003"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Program page</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="hidden-web">
+            <div class="survey-top">
+              <div><h3>Unveiling the Hidden Web</h3><p class="full">Calibrating Roman galaxy environments with intergalactic-gas tomography · Roman Cycle 1 analysis</p></div>
+              <div class="tags"><span class="badge badge-ink">Roman</span></div>
+            </div>
+            <p><!-- BEGIN mdi:hidden-web-about -->A Roman analysis program that will map intergalactic gas in 3D and use those maps to calibrate where galaxies at cosmic noon live in the cosmic web.<!-- END mdi:hidden-web-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:hidden-web-role -->Co-investigator since 2026, in a program led by my former mentee Nima Chartab (IPAC).<!-- END mdi:hidden-web-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PI: Nima Chartab</span><span>Program 19107</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://roman.ipac.caltech.edu/cycle1-approved-programs/19107"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Program page</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="aurora">
+            <div class="survey-top">
+              <div><h3>AURORA</h3><p class="full">Assembly of Ultradeep Rest-optical Observations Revealing Astrophysics · JWST Cycle 1</p></div>
+              <div class="tags"><span class="badge badge-ink">JWST</span></div>
+            </div>
+            <p><!-- BEGIN mdi:aurora-about -->Ultra-deep NIRSpec spectroscopy, with roughly a full day of exposure, of 97 galaxies mostly seen 9–12 billion years ago in the COSMOS and GOODS-N fields. The depth reveals faint “auroral” emission lines that act as thermometers, giving direct measurements of chemical abundances.<!-- END mdi:aurora-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:aurora-role -->Team member since 2024. I lead chemical-enrichment studies: direct, temperature-based metallicity relations and the α-element-to-iron ratios of stars.<!-- END mdi:aurora-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PIs: Alice Shapley &amp; Ryan Sanders</span><span>Program 1914</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://www.stsci.edu/jwst-program-info/program/?program=1914"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Program &amp; data</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/arXiv:2407.00157/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="poppies">
+            <div class="survey-top">
+              <div><h3>POPPIES</h3><p class="full">Public Observation Pure Parallel Infrared Emission-Line Survey · JWST Cycle 3</p></div>
+              <div class="tags"><span class="badge badge-ink">JWST</span></div>
+            </div>
+            <p><!-- BEGIN mdi:poppies-about -->A 400-hour survey that rides along with other JWST programs: while one instrument observes a primary target, NIRCam takes slitless spectra of a neighboring patch of sky. Across about 150 fields, it builds an unbiased census of emission-line galaxies over cosmic time.<!-- END mdi:poppies-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:poppies-role -->Team member since 2024.<!-- END mdi:poppies-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PI: Jeyhan Kartaltepe</span><span>Program 5398</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://www.stsci.edu/jwst-program-info/program/?program=5398"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Program &amp; data</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="jels">
+            <div class="survey-top">
+              <div><h3>JELS</h3><p class="full">JWST Emission Line Survey · JWST Cycle 1</p></div>
+              <div class="tags"><span class="badge badge-ink">JWST</span></div>
+            </div>
+            <p><!-- BEGIN mdi:jels-about -->The first blind narrowband survey for hydrogen-emitting galaxies seen less than a billion years after the Big Bang (<i>z</i> ≈ 6.1), using NIRCam's narrowband filters. It carries the technique behind HiZELS into the epoch of reionization.<!-- END mdi:jels-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:jels-role -->Team member since 2021.<!-- END mdi:jels-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PI: Philip Best</span><span>Program 2321</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://www.stsci.edu/jwst-program-info/program/?program=2321"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Program &amp; data</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/arXiv:2410.09000/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="clutch">
+            <div class="survey-top">
+              <div><h3>CLUTCH</h3><p class="full">COSMOS Legacy UV-Optical Treasury Campaign with Hubble · Cycle 32</p></div>
+              <div class="tags"><span class="badge badge-ink">Hubble</span></div>
+            </div>
+            <p><!-- BEGIN mdi:clutch-about -->A 214-orbit Hubble Treasury program adding ultraviolet, optical, and medium-band imaging across the COSMOS field. It complements JWST's infrared view with the colors that trace young, hot stars, and its medium-band filters will pick out emission-line galaxies at cosmic noon.<!-- END mdi:clutch-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:clutch-role -->Co-investigator since 2024. I helped choose the medium-band filters using emission-line predictions.<!-- END mdi:clutch-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>PI: Jeyhan Kartaltepe</span><span>Program 17802</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://www.stsci.edu/hst-program-info/program/?program=17802"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Program &amp; data</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="rex">
+            <div class="survey-top">
+              <div><h3>REX</h3><p class="full">The Reionization Explorer · proposed space mission</p></div>
+              <div class="tags"><span class="badge badge-ink">Space mission</span><span class="badge badge-violet">Proposed</span></div>
+            </div>
+            <p><!-- BEGIN mdi:rex-about -->A proposed narrowband space mission designed to find galaxies during reionization, the era when the first galaxies cleared the fog of neutral hydrogen.<!-- END mdi:rex-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:rex-role -->Science team member, extending my narrowband and extreme-galaxy work to the early Universe.<!-- END mdi:rex-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-users"/></svg>Led by Sangeeta Malhotra &amp; James Rhoads (NASA Goddard)</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/search/q=title%3A%22REX%2C%20the%20reionization%20explorer%22"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Mission paper</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Group 3 -->
+      <div class="survey-group" id="ground">
+        <div class="group-head">
+          <h2>Ground-based surveys</h2>
+          <p><!-- BEGIN mdi:group-ground -->Wide-field imaging surveys, mostly with narrowband filters, on telescopes in Hawaiʻi, Chile, and Arizona.<!-- END mdi:group-ground --></p>
+        </div>
+        <div class="survey-grid">
+          <article class="card survey" id="hizels">
+            <div class="survey-top">
+              <div><h3>HiZELS</h3><p class="full">High-<i>z</i> Emission Line Survey</p></div>
+              <div class="tags"><span class="badge badge-ink">UKIRT · Subaru</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:hizels-about -->A narrowband survey on the UKIRT and Subaru telescopes that found thousands of hydrogen- and oxygen-emitting galaxies in thin slices of cosmic time, across well-studied fields including COSMOS and UDS.<!-- END mdi:hizels-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:hizels-role -->PhD research (2012–2018). I built the oxygen-emitter samples and led studies of their luminosity functions, stellar masses, equivalent widths, and clustering.<!-- END mdi:hizels-role --></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/428/1128"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Catalog (VizieR)</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.428.1128S/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="sc4k">
+            <div class="survey-top">
+              <div><h3>SC4K</h3><p class="full">Slicing COSMOS with 4K Lyman-α emitters</p></div>
+              <div class="tags"><span class="badge badge-ink">Subaru</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:sc4k-about -->Imaging through 16 medium- and narrowband filters that sliced the COSMOS field into 16 windows of cosmic time, finding about 4,000 Lyman-α-emitting galaxies seen 10.5–12.9 billion years ago (<i>z</i> ≈ 2–6).<!-- END mdi:sc4k-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:sc4k-role -->I measured how SC4K galaxies cluster to infer the masses of their dark-matter halos.<!-- END mdi:sc4k-role --></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/476/4725"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Catalog (VizieR)</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.4725S/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="lager">
+            <div class="survey-top">
+              <div><h3>LAGER</h3><p class="full">Lyman Alpha Galaxies in the Epoch of Reionization</p></div>
+              <div class="tags"><span class="badge badge-ink">CTIO · DECam</span></div>
+            </div>
+            <p><!-- BEGIN mdi:lager-about -->A narrowband survey with the Dark Energy Camera on the 4-meter Blanco telescope in Chile, using a custom filter designed to find Lyman-α galaxies about 13 billion years ago (<i>z</i> ≈ 6.9), during reionization. The same images reveal thousands of nearer hydrogen- and oxygen-emitting galaxies.<!-- END mdi:lager-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:lager-role -->Team member since 2018. I led the analyses of those nearer emission-line galaxies: their luminosity functions and equivalent widths.<!-- END mdi:lager-role --></div>
+            <div class="survey-meta"><span><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Collaboration spanning the US, Chile, and China</span></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://www.lagersurvey.org/"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Website</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2019PASP..131g4502Z/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Filter design paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="dawn">
+            <div class="survey-top">
+              <div><h3>DAWN</h3><p class="full">Deep And Wide Narrowband survey</p></div>
+              <div class="tags"><span class="badge badge-ink">KPNO · Mayall</span></div>
+            </div>
+            <p><!-- BEGIN mdi:dawn-about -->A deep near-infrared narrowband survey with the NEWFIRM camera on the 4-meter Mayall telescope, searching for Lyman-α galaxies at <i>z</i> ≈ 7.7 and, in the same images, hydrogen-emitting galaxies at <i>z</i> ≈ 0.62.<!-- END mdi:dawn-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:dawn-role -->Team member since 2018. I mentored Santosh Harish, then an Arizona State PhD student, on the hydrogen-emitter analysis.<!-- END mdi:dawn-role --></div>
+            <div class="survey-links">
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2020ApJ...892...30H/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Harish et al. 2020</a>
+            </div>
+          </article>
+
+          <!-- TODO (Ali): add CIDER's full name and a link when available. -->
+          <article class="card survey" id="cider">
+            <div class="survey-top">
+              <div><h3>CIDER</h3><p class="full">Wide-field narrowband imaging survey</p></div>
+              <div class="tags"><span class="badge badge-ink">CTIO · DECam</span></div>
+            </div>
+            <p><!-- BEGIN mdi:cider-about -->A 20-square-degree narrowband survey with the Dark Energy Camera at Cerro Tololo in Chile that maps emission-line galaxies in thin slices of cosmic time. Its samples will be several times larger than those of previous narrowband surveys, enough to study rare extreme galaxies as a population.<!-- END mdi:cider-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:cider-role -->Team member since 2018, in a collaboration spanning Chile and China.<!-- END mdi:cider-role --></div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Group 4 -->
+      <div class="survey-group" id="legacy">
+        <div class="group-head">
+          <h2>Legacy fields &amp; earlier work</h2>
+          <p><!-- BEGIN mdi:group-legacy -->The field where most of my work lives, and the surveys where I started research as an undergraduate.<!-- END mdi:group-legacy --></p>
+        </div>
+        <div class="survey-grid">
+          <article class="card survey" id="cosmos">
+            <div class="survey-top">
+              <div><h3>COSMOS</h3><p class="full">Cosmic Evolution Survey</p></div>
+              <div class="tags"><span class="badge badge-ink">Legacy field</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:cosmos-about -->A 2-square-degree patch of sky, about ten times the area of the full Moon, observed by nearly every major telescope from X-rays to radio. Its depth and wealth of data make it one of the most important fields for studying how galaxies evolve.<!-- END mdi:cosmos-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:cosmos-role -->Collaboration member since 2018. I lead the COSMOS spectroscopic redshift compilation and the development of the spectroscopic archive.<!-- END mdi:cosmos-role --></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://irsa.ipac.caltech.edu/Missions/cosmos.html"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Data (IRSA)</a>
+              <a class="link-btn" href="https://cosmos.astro.caltech.edu/"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-globe"/></svg>Website</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="candels">
+            <div class="survey-top">
+              <div><h3>CANDELS</h3><p class="full">Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey</p></div>
+              <div class="tags"><span class="badge badge-ink">Hubble</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:candels-about -->A 902-orbit Hubble Treasury program that imaged five famous deep fields in near-infrared light, charting galaxies from cosmic dawn to cosmic noon.<!-- END mdi:candels-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:candels-role -->Undergraduate research (2008–2012) with Asantha Cooray at UC Irvine.<!-- END mdi:candels-role --></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://archive.stsci.edu/hlsp/candels"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Data (MAST)</a>
+              <a class="link-btn" href="https://ui.adsabs.harvard.edu/abs/2011ApJS..197...36K/abstract"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>Survey paper</a>
+            </div>
+          </article>
+
+          <article class="card survey" id="h-atlas">
+            <div class="survey-top">
+              <div><h3>H-ATLAS</h3><p class="full">Herschel Astrophysical Terahertz Large Area Survey</p></div>
+              <div class="tags"><span class="badge badge-ink">Herschel</span><span class="badge badge-teal">Public data</span></div>
+            </div>
+            <p><!-- BEGIN mdi:h-atlas-about -->The widest extragalactic survey with the Herschel Space Observatory, mapping about 600 square degrees in far-infrared and submillimeter light to find dusty, star-forming galaxies, including many magnified by gravitational lensing.<!-- END mdi:h-atlas-about --></p>
+            <div class="role"><strong>My role</strong><!-- BEGIN mdi:h-atlas-role -->Undergraduate research (2008–2012), including Spitzer imaging of gravitationally lensed galaxies.<!-- END mdi:h-atlas-role --></div>
+            <div class="survey-links">
+              <a class="link-btn data" href="https://www.h-atlas.org/"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-database"/></svg>Data releases</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="night cta on-night">
+        <canvas class="starfield" data-seed="9" data-density="0.7" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow">For students</p>
+          <h2>Looking for a research project?</h2>
+          <p><!-- BEGIN mdi:students -->Many of these data sets are public and make a great starting point for student research. If you'd like to explore them, get in touch.<!-- END mdi:students --></p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-light" href="mailto:akhostov@gmail.com"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-mail"/></svg>Email me</a>
+          <a class="btn btn-ghost" href="/research/">Research overview</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- BEGIN footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Ali Ahmad Khostovan</p>
+        <p>Assistant Professor of Practice<br>Department of Physics &amp; Astronomy<br>University of the Pacific · Stockton, California</p>
+        <p><a href="mailto:akhostov@gmail.com">akhostov@gmail.com</a></p>
+        <div class="social">
+          <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Khostovan%22&amp;sort=date%20desc%2C%20bibcode%20desc" aria-label="Publications on NASA ADS" title="NASA ADS"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg></a>
+          <a href="https://orcid.org/0000-0002-0101-336X" aria-label="ORCID profile" title="ORCID"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-orcid"/></svg></a>
+          <a href="https://github.com/akhostov" aria-label="GitHub profile" title="GitHub"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-github"/></svg></a>
+          <a href="https://www.linkedin.com/in/ali-ahmad-khostovan-b5636678/" aria-label="LinkedIn profile" title="LinkedIn"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-linkedin"/></svg></a>
+          <a href="mailto:akhostov@gmail.com" aria-label="Email" title="Email"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-mail"/></svg></a>
+        </div>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-h">Explore</p>
+        <ul class="footer-links">
+          <li><a href="/research/">Research</a></li>
+          <li><a href="/surveys/">Surveys &amp; data</a></li>
+          <li><a href="/publications/">Publications</a></li>
+          <li><a href="/teaching/">Teaching</a></li>
+          <li><a href="/mentoring/">Mentoring</a></li>
+          <li><a href="/outreach/">Outreach</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-h">Documents</p>
+        <ul class="footer-links">
+          <li><a href="/assets/docs/Khostovan_CV.pdf"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-file"/></svg>Curriculum vitae (PDF)</a></li>
+          <li><a href="/assets/docs/Khostovan_Publications.pdf"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-file"/></svg>Publication list (PDF)</a></li>
+          <li><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Khostovan%22&amp;sort=date%20desc%2C%20bibcode%20desc"><svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#i-book"/></svg>NASA ADS library</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Ali Ahmad Khostovan · Last updated November 2026</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+<!-- END footer -->
+</body>
+</html>
